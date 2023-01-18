@@ -104,6 +104,7 @@ function getList(drive, pageToken) {
             //     console.log(`${file.name} (${file.id})`);
             // });
         } else {
+            id_archivo = ""
             console.log('No files found.');
         }
     });

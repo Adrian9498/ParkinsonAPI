@@ -19,7 +19,7 @@ router.post('/api/login', getDoctor);
 
 router.post('/api/createDoctor', createDoctor);
 
-
+//Comentario para redeploy 
 
 router.get('/api/get-access-token', async (req,res) => {
 

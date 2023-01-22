@@ -4,7 +4,7 @@ import  Sequelize  from "sequelize";
 export const sequelize = new Sequelize(
     'railway',
     'postgres',
-    'mqz98kCnl3qgzbUi8M3F',
+    'WD5HsM0kK2TjH68XNDWl',
     {
         host: 'containers-us-west-54.railway.app',
         port: 5793,

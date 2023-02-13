@@ -39,6 +39,18 @@ export const Paciente = sequelize.define('paciente',{
     estatura:{
         type: DataTypes.REAL,
         allowNull: true 
+    },
+    paso:{
+        type: DataTypes.REAL,
+        allowNull: true 
+    },
+    cadencia:{
+        type: DataTypes.REAL,
+        allowNull: true 
+    },
+    pierna:{
+        type: DataTypes.REAL,
+        allowNull: true 
     }
 
 },{timestamps: false});
